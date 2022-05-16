@@ -1,0 +1,71 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: Numbers:
+---------------------------
+Numbers:
+---------------
+new Numbers:1(
+ this.n1 = new WholeNumber:2(
+  this.n = 5)
+ this.n2 = new WholeNumber:3(
+  this.n = 7)
+ this.n3 = new Fraction:4(
+  this.n = 7
+  this.d = 2)
+ this.n4 = new Fraction:5(
+  this.n = 1
+  this.d = 2))
+---------------
+
+Ran 12 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/15624/OneDrive/Desktop/JavaProjects/CSE11/Assignments/cse11-pa4-starter-main/lib/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
+
+
+
+EXPLORATION:
+
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesNumbers:
+---------------------------
+ExamplesNumbers:
+---------------
+new ExamplesNumbers:1(
+ this.result1 = 0.6000000000000001
+ this.result2 = 0.6
+ this.num1 = new Fraction:2(
+  this.n = 1
+  this.d = 10)
+ this.num2 = new Fraction:3(
+  this.n = 2
+  this.d = 10)
+ this.num3 = new Fraction:4(
+  this.n = 3
+  this.d = 10)
+ this.result1pt1 = new Fraction:5(
+  this.n = 30
+  this.d = 100)
+ this.result1pt2 = new Fraction:6(
+  this.n = 600
+  this.d = 1000)
+ this.result2pt1 = new Fraction:7(
+  this.n = 50
+  this.d = 100)
+ this.result2pt2 = new Fraction:8(
+  this.n = 600
+---------------
+
+Ran 2 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/15624/OneDrive/Desktop/JavaProjects/CSE11/Assignments/cse11-pa4-starter-main/lib/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release

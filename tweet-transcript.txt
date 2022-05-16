@@ -1,0 +1,53 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: Tweets:
+---------------------------
+Tweets:
+---------------
+new Tweets:1(
+ this.joe = new User:2(
+  this.username = "joepolitz"
+  this.fullname = "Joe Gibbs Politz"
+  this.followers = 999)
+ this.greg = new User:3(
+  this.username = "gregory_miranda"
+  this.fullname = "Greg Miranda"
+  this.followers = 9999)
+ this.rachel = new User:4(
+  this.username = "Rachel__Lim"
+  this.fullname = "Rachel Lim"
+  this.followers = 1000000)
+ this.t1 = new TextTweet:5(
+  this.author = User:2
+  this.contents = "Java 17 has a cool feature called records"
+  this.likes = 77)
+ this.t2 = new ReplyTweet:6(
+  this.author = User:3
+  this.contents = "Hmm I wonder if we could use it for CSE11"
+  this.likes = 12
+  this.replyTo = TextTweet:5)
+ this.t3 = new ReplyTweet:7(
+  this.author = User:3
+  this.contents = "Thought about this more, probably not yet, too new."
+  this.likes = 73
+  this.replyTo = ReplyTweet:6)
+ this.t4 = new ReplyTweet:8(
+  this.author = User:2
+  this.contents = "Yeah, good point. Maybe in 2022."
+  this.likes = 10
+  this.replyTo = ReplyTweet:7)
+ this.t5 = new ReplyTweet:9(
+  this.author = User:4
+  this.contents = "Yeah... I don't want to rewrite the book right this minute"
+  this.likes = 1005
+  this.replyTo = ReplyTweet:6))
+---------------
+
+Ran 19 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by tester.Main (file:/C:/Users/15624/OneDrive/Desktop/JavaProjects/CSE11/Assignments/cse11-pa4-starter-main/lib/tester.jar)
+WARNING: Please consider reporting this to the maintainers of tester.Main
+WARNING: System::setSecurityManager will be removed in a future release
